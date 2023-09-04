@@ -4,7 +4,7 @@ export const LogoGrid = () => {
             <div className="max-w-screen-xl mx-auto px-4 md:px-8">
                 <div className="max-w-xl mx-auto text-center">
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                        Who's using Float UI?
+                      Ils nous font confiance
                     </h3>
                     <p className="text-gray-600 mt-3">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec dignissim nibh nisl, vel egestas magna rhoncus at. Nunc elementum efficitur tortor in laoreet.

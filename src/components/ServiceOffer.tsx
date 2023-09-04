@@ -24,12 +24,11 @@ export const ServiceOffer = () => {
     ];
 
     return (
-        <div className="p-10 space-y-5">
-            <h2 className="text-2xl font-semibold">Nos offres de prestations</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 p-10">
             {services.map((service, index) => (
-                <div key={index} className="transition-transform transform scale-100 hover:scale-105 hover:shadow-xl p-4 rounded border border-gray-200 cursor-pointer">
-                    <h3 className="text-xl font-bold">{service.title}</h3>
-                    <p>{service.description}</p>
+                <div key={index} className=" hover:animate-pulse animate-infinite animate-ease-linear p-4 border border-gray-100 rounded cursor-pointer hover:bg-purple-esisar-50 transition-colors duration-300">
+                    <h3 className="text-xl font-bold text-purple-esisar">{service.title}</h3>
+                    <p className="text-black">{service.description}</p>
                 </div>
             ))}
         </div>
