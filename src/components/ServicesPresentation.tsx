@@ -8,7 +8,7 @@ export const Services = () => {
             {/* Prestation 1 */}
 
             <Fade direction="left" duration={800}>
-                <div className="p-5 w-full md:w-2/3">
+                <div className="p-5 w-full md:w-2/3 px-56">
                     <h2 className="text-xl font-semibold">Osez le digital !</h2>
                     <p>Dans un monde de plus en plus connecté, digitaliser son activité est devenu une priorité pour développer son entreprise. C’est dans ce contexte que N7 Consulting vous accompagne et vous conseille dans toutes vos démarches de transformation digitale grâce à l’expertise de pointe de ses intervenants en Sciences du Numérique.</p>
                 </div>
