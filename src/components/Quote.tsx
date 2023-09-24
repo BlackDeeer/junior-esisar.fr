@@ -81,8 +81,9 @@ export const Quote = () => {
                                         className="form-select w-full p-2" 
                                         required 
                                         {...register("gender", { required: 'Le champ genre est requis' })}>
-                                        <option value="M.">M.</option>
-                                        <option value="Mme.">Mme.</option>
+                                        <option value="M.">M</option>
+                                        <option value="Mme.">Mme</option>
+                                        <option value="Autre">Autre</option>
                                     </select>
                                 </div>
                             </div>

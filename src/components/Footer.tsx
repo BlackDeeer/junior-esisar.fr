@@ -6,21 +6,15 @@ export const Footer = () => {
                     <div className="w-full md:w-1/2">
                         <img src="images/logo_junior.png" alt="Logo" className="w-20" />
                         <p className="mt-4">
-                            Grenoble INP - Esisar<br/>50 rue Barthélémy de Laffemas CS 10054<br/>26902 Valence Cedex 09 - France
+                            Grenoble - INP Esisar, UGA<br/>50 rue Barthélémy de Laffemas CS 10054<br/>26902 Valence Cedex 09 - France
                         </p>
                     </div>
                     <div className="w-full md:w-1/2 text-right mt-4 md:mt-0">
-                        <a href="mailto:contact@yourmail.fr" target="_blank" rel="noreferrer">
+                        <a href="mailto:junior.esisar@esisar.grenoble-inp.fr" target="_blank" rel="noreferrer">
                             <img src="images/mail_icon.svg" alt="Mail" className="w-10 inline-block mx-1" />
                         </a>
-                        <a href="https://www.linkedin.com/company/your-company/" target="_blank" rel="noreferrer">
+                        <a href="https://www.linkedin.com/company/junior-esisar/" target="_blank" rel="noreferrer">
                             <img src="images/linkedin_icon.svg" alt="LinkedIn" className="w-7 inline-block mx-1" />
-                        </a>
-                        <a href="https://www.facebook.com/your-facebook-page/" target="_blank" rel="noreferrer">
-                            <img src="images/facebook_icon.svg" alt="Facebook" className="w-7 inline-block mx-1" />
-                        </a>
-                        <a href="https://twitter.com/your-twitter-handle" target="_blank" rel="noreferrer">
-                            <img src="images/twitter_icon.svg" alt="Twitter" className="w-7 inline-block mx-1" />
                         </a>
                         <div className="mt-10 space-x-2">
                             <a href="your-commercial-brochure.pdf" className="text-gray-600 hover:underline">Plaquette commerciale</a> |

@@ -2,24 +2,21 @@
 export const ServiceOffer = () => {
     const services = [
         {
-            title: "IA - Data Science",
-            description: "Les sciences des données, vecteur d'amélioration de vos performances"
+            title: "Développement logiciel",
+            description: "Développez vos outils internes ou concrétisez vos projets logiciel"
         },
         {
             title: "Développement web",
             description: "Le web, pilier de la communication"
         },
+ 
         {
-            title: "Développement mobile",
-            description: "Les fonctionnalités d'un ordinateur dans votre poche"
+            title: "Développement embarqué",
+            description: "Mettez en place des bancs de tests, développez sur vos cartes électroniques ou vos éléments embarqués"
         },
         {
-            title: "Développement logiciel",
-            description: "Développez vos outils internes ou concrétisez vos projets logiciel"
-        },
-        {
-            title: "Modélisation & mathématiques appliquées",
-            description: "Modéliser des phénomènes complexes, grâce à de puissants outils"
+            title: "Administration système",
+            description: "Configurez, maintenez, optimisez vos systèmes Linux ou mettez en place des systèmes complexes"
         }
     ];
 

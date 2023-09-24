@@ -9,8 +9,8 @@ export const Services = () => {
 
             <Fade direction="left" duration={800}>
                 <div className="p-5 w-full md:w-2/3 px-56">
-                    <h2 className="text-xl font-semibold">Osez le digital !</h2>
-                    <p>Dans un monde de plus en plus connecté, digitaliser son activité est devenu une priorité pour développer son entreprise. C’est dans ce contexte que N7 Consulting vous accompagne et vous conseille dans toutes vos démarches de transformation digitale grâce à l’expertise de pointe de ses intervenants en Sciences du Numérique.</p>
+                    <h2 className="text-xl font-semibold">Osez le numérique !</h2>
+                    <p>Dans un monde de plus en plus connecté, le passage au numérique de l'ensemble de son activité est devenu une priorité pour développer son entreprise. La Junior Esisar vous accompagne et vous conseille dans vos démarches de digitalisation grâce à l’expertise de ses étudiants dans les systèmes cyber-physiques et la cybersécurité en électronique, automatique informatique et réseaux. </p>
                 </div>
             </Fade>
             
@@ -20,23 +20,15 @@ export const Services = () => {
                     <h2 className="text-xl font-semibold">Pourquoi nous choisir ? </h2>
                     <p>
 
-                        Les étudiants de l’ENSEEIHT en filière Sciences du Numérique maîtrisent une multitude de langages de programmation et sont donc capables de créer une solution numérique correspondant parfaitement à votre besoin.
-
-                        Depuis plus de 45 ans, le développement de ces solutions représente 80 % de notre activité.
-
-                        Nous sommes référencés comme « Prestataire Numérique » auprès de : FranceNum et de PrestaNum (Cci Occitanie)
-
-                        Nos différents parcours de masters leur permettent d’être spécialisés dans leur domaine technique.
+                        Les étudiants de l'Esisar maîtrisent la majorité des systèmes cyber-physiques et sont donc capables de créer une solution numérique qui correspond à vos besoins.
+                        Nos 2 filières leur permettent une spécialisation technique, tout en restant suffisement généraliste pour pouvoir travailler avec toutes sortes de systèmes.
 
                     <Fade cascade>
                         <ul>
-                            <li> - Cybersécurité avec le master TLS-SEC</li>
-                            <li> - Télécoms sans fil et Objets connectés</li>
-                            <li> - Infrastructure Big Data et IoT</li>
-                            <li> - Systèmes Embarqués et IoT Industriel</li>
-                            <li> - Système Logiciel, Image et Multimédia</li>
-                            <li> - Calcul haute performance et Big Data</li>
-                            <li> - Systèmes de communication satellite avec le Master of Science (SATCOM)</li>
+                            <li> - Cybersécurité comme constante au sein des cursus</li>
+                            <li> - Electronique embarquée, Informatique et automatique </li>
+                            <li> - Informatique, Réseaux et cybersécurité</li>
+                            <li> - Systèmes Complexes Intelligents</li>
                         </ul>
                     </Fade>
 
@@ -47,16 +39,34 @@ export const Services = () => {
             {/* Prestation 3 */}
             <Fade direction="left" duration={1300}>
                 <div className="p-5 border border-black w-full md:w-2/3">
-                    <h2 className="text-xl font-semibold">Prestation 3</h2>
-                    <p>Description de la prestation 3...</p>
+                    <h2 className="text-xl font-semibold">Développement logiciel</h2>
+                    <p>Nous sommes spécialisés dans le développement et le design de logiciels sur mesure ainsi que la mise en place d'interfaces utilisateurs. 
+                    Nous sommes formés en développement logiciel et connaissons plusieurs langages de programmation tels que le C, le Java et le Python. </p>
                 </div>
             </Fade>
             
             {/* Prestation 4 */}
             <Fade direction="right" duration={1700}>
                 <div className="p-5 border border-black w-full md:w-2/3">
-                    <h2 className="text-xl font-semibold">Prestation 4</h2>
-                    <p>Description de la prestation 4...</p>
+                    <h2 className="text-xl font-semibold">Développement web</h2>
+                    <p>Les applications Web sont omniprésentes dans un monde de plus en plus connecté. Il est donc nécessaire de proposer des offres qui correspondent à vos besoins</p>
+                </div>
+            </Fade>
+            
+            {/* Prestation 5 */}
+            <Fade direction="right" duration={1700}>
+                <div className="p-5 border border-black w-full md:w-2/3">
+                    <h2 className="text-xl font-semibold">Développement Embarqué</h2>
+                    <p> Nous sommes en capacité de développer sur des systèmes embarqués, notamment sur des cartes électroniques. Nous pouvons développer des bancs de tests pour vous permettre de garantir la fiabilité et la qualité de vos systèmes embarqués.
+                    </p>
+                </div>
+            </Fade>
+            
+            {/* Prestation 6 */}
+            <Fade direction="left" duration={1700}>
+                <div className="p-5 border border-black w-full md:w-2/3">
+                    <h2 className="text-xl font-semibold">Administration système</h2>
+                    <p>Nos formations nous permettent de configurer, de maintenir et d'optimiser des systèmes complexes. Nous pouvons aussi mettre en place et optimiser vos bases de données pour vous assurer une mise en place complète de vos systèmes. </p>
                 </div>
             </Fade>
 
