@@ -24,9 +24,9 @@ export const AboutSection = () => (
             />
 
             <p className="text-lg mb-4 mt-4">
-            Depuis notre création en 1977, nous avons baigné dans l’expertise technique de notre école &nbsp;
+            Depuis sa création en 1995, les étudiants ont bénéficié de l'expertise technique de l'école &nbsp;
                 <span className="before:shadow-md before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-purple-esisar-500 relative inline-block z-1000">
-                    <span className="relative text-white">INP-ESISAR</span>
+                    <span className="relative text-white">Grenoble-INP ESISAR</span>
                 </span>. 
             </p>
             <p className="text-lg">
