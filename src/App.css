@@ -1,24 +1,18 @@
-.rideau-enter {
-    transform: translateY(-100%);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 100vh;
-    background-color: violet;  /* changement pour la couleur violette */
-    z-index: 9999;
-}
+.fade-enter {
+    opacity: 0.01;
+  }
+  
+  .fade-enter-active {
+    opacity: 1;
+    transition: opacity 700ms ease-in;
+  }
+  
+  .fade-exit {
+    opacity: 1;
+  }
+  
+  .fade-exit-active {
+    opacity: 0.01;
+    transition: opacity 700ms ease-in;
+  }
 
-.rideau-enter-active {
-    transform: translateY(100%);
-    transition: transform 3s;
-}
-
-.rideau-exit {
-    transform: translateY(0);
-}
-
-.rideau-exit-active {
-    transform: translateY(100%);
-    transition: transform 3s;
-}

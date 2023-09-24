@@ -8,13 +8,15 @@ export const AboutSection = () => (
             <TypeAnimation
                 sequence={[
                     // Same substring at the start will only be typed once, initially
-                    'Junior Esisar, la Junior-Entreprise technique pour des projets de développement web',
+                    'Junior Esisar, la Junior technique pour des projets de développement web',
                     1000,
-                    "Junior Esisar, la Junior-Entreprise technique pour des projets d'administration système",
+                    "Junior Esisar, la Junior technique pour des projets d'administration système",
                     1000,
-                    "Junior Esisar, la Junior-Entreprise technique pour des projets de pentesting",
+                    "Junior Esisar, la Junior technique pour des projets de pentesting",
                     1000,
-                    "Junior Esisar, la Junior-Entreprise technique pour des projets de développement mobile",
+                    "Junior Esisar, la Junior technique pour des projets de développement mobile",
+                    1000,
+                    "Junior Esisar, la Junior technique pour des projets de développement de cartes électroniques",
                     1000,
                 ]}
                 speed={80}

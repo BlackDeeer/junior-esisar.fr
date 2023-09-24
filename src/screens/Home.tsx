@@ -7,6 +7,7 @@ import { AboutSection } from "../components/About"
 export const Home = () => {
     return(
         <main>
+            
             <HeroSection />
             <AboutSection/>
             <ServiceOffer/>
