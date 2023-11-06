@@ -14,7 +14,7 @@ export default function BlogPost({ title }: { title: string }) {
         </div>
         <div className='p-6'>
           <div>
-            <span className='text-purple-esisar text-xs font-medium uppercase '>
+            <span className='text-xs font-medium uppercase text-purple-esisar '>
               {title}
             </span>
             <a
