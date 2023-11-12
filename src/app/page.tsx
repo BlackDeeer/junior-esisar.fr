@@ -1,7 +1,9 @@
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import ServiceOffer from '@/components/ServiceOffer';
-import LogoGrid from '@/components/LogoGrid';
+import TextSlide from '@/components/TextSlide';
+import Methodology from '@/components/Methodology';
+import Contact from '@/components/Contact';
 
 export default function Home() {
   return (
@@ -9,8 +11,9 @@ export default function Home() {
       <Hero />
       <About />
       <ServiceOffer />
-      <LogoGrid />
-      {/* <Terminal /> */}
+      <TextSlide />
+      <Methodology />
+      <Contact />
     </main>
   );
 }

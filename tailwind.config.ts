@@ -9,6 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        black: '#2B183F',
+        primary: '#7E4999',
+        white: '#FCFCFC',
+        bone: '#F6F6EB',
         'purple-esisar': {
           DEFAULT: '#951B80',
           50: '#F6CDEF',
@@ -22,6 +26,12 @@ const config: Config = {
           800: '#470D3D',
           900: '#2D0827',
           950: '#20061C',
+        },
+      },
+      keyframes: {
+        slide: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
         },
       },
     },
