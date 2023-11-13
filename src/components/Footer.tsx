@@ -1,31 +1,31 @@
 import Image from 'next/image';
 //@ts-ignore
 import JuniorLogo from '@/assets/logo_junior.svg?url';
-import InstagramIcon from '@/assets/icons/instagram.svg';
-import FacebookIcon from '@/assets/icons/facebook.svg';
-import LinkedinIcon from '@/assets/icons/linkedin_full.svg';
-import GithubIcon from '@/assets/icons/github.svg';
+import { BsInstagram } from 'react-icons/bs';
+import { BsFacebook } from 'react-icons/bs';
+import { BsLinkedin } from 'react-icons/bs';
+import { BsGithub } from 'react-icons/bs';
 
 const socials = [
   {
     href: 'https://www.instagram.com/junior_esisar/',
     ariaLabel: 'Instagram de la Junior Esisar',
-    icon: <InstagramIcon height={24} width={24} />,
+    icon: <BsInstagram size={24} />,
   },
   {
     href: 'https://www.facebook.com/GrenobleINPEsisar',
     ariaLabel: 'Facebook de la Junior Esisar',
-    icon: <FacebookIcon height={24} width={24} />,
+    icon: <BsFacebook size={24} />,
   },
   {
     href: 'https://www.linkedin.com/company/junior-esisar/',
     ariaLabel: 'Linkedin de la Junior Esisar',
-    icon: <LinkedinIcon height={24} width={24} />,
+    icon: <BsLinkedin size={24} />,
   },
   {
     href: 'https://www.github.com',
     ariaLabel: 'GitHub de la Junior Esisar',
-    icon: <GithubIcon height={24} width={24} />,
+    icon: <BsGithub size={24} />,
   },
 ];
 
