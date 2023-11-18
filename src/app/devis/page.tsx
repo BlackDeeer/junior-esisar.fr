@@ -72,7 +72,7 @@ export default function Devis() {
             {/* <i className="far fa-paper-plane text-2xl mb-2 text-white"></i> */}
             <h2 className='mb-5 text-2xl font-semibold text-black'>
               Envoyez-nous votre demande de &nbsp;
-              <span className='z-1000 relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-6 before:bg-purple-esisar-500 before:shadow-md'>
+              <span className='z-1000 before:bg-secondary-500 relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-6 before:shadow-md'>
                 <span className='relative text-white'>devis</span>
               </span>
             </h2>
@@ -206,7 +206,7 @@ export default function Devis() {
               </div>
               <div className='animate-infinite animate-ease-out animate-pulse text-center'>
                 <button
-                  className='rounded bg-purple-esisar-600 px-6 py-2 text-white hover:bg-purple-esisar-700 focus:bg-purple-esisar-700 focus:outline-none'
+                  className='bg-secondary-600 hover:bg-secondary-700 focus:bg-secondary-700 rounded px-6 py-2 text-white focus:outline-none'
                   type='submit'
                   data-te-ripple-init
                   data-te-ripple-color='light'

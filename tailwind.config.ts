@@ -13,7 +13,8 @@ const config: Config = {
         primary: '#7E4999',
         white: '#FCFCFC',
         bone: '#F6F6EB',
-        'purple-esisar': {
+        accent: '#FEDB63',
+        secondary: {
           DEFAULT: '#951B80',
           50: '#F6CDEF',
           100: '#F1B3E7',
