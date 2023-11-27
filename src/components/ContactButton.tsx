@@ -60,7 +60,7 @@ export default function ContactButton() {
             width={164}
           />
         </div>
-        <div className='bg-accent absolute bottom-0 left-0 right-0 top-0 scale-50 rounded-full transition-transform delay-200 duration-300 ease-out group-hover:scale-100 group-hover:delay-0'></div>
+        <div className='absolute bottom-0 left-0 right-0 top-0 scale-50 rounded-full bg-accent transition-transform delay-200 duration-300 ease-out group-hover:scale-100 group-hover:delay-0'></div>
         <div className='absolute bottom-0 left-0 right-0 top-0 scale-0 rounded-full bg-primary transition-transform delay-0 duration-300 ease-out group-hover:scale-50 group-hover:delay-200 group-active:scale-0 group-active:delay-0'></div>
       </div>
     </a>

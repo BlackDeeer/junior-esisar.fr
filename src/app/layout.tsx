@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { Darker_Grotesque } from 'next/font/google';
 import './globals.css';
-import Navigation from '@/components/Navigation';
+import Navigation from '@/components/navigation/Navigation';
 import Footer from '@/components/Footer';
 
 const darkerGrotesque = Darker_Grotesque({ subsets: ['latin'] });

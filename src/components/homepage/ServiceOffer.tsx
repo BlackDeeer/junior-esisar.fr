@@ -1,4 +1,4 @@
-import SectionLayout from './SectionLayout';
+import SectionLayout from '../SectionLayout';
 import { PiBracketsCurlyBold } from 'react-icons/pi';
 import { MdDevices } from 'react-icons/md';
 import { PiCircuitryFill } from 'react-icons/pi';
@@ -48,9 +48,9 @@ function Card({
 }) {
   return (
     <a href={href}>
-      <article className='hover:bg-secondary-50 cursor-pointer rounded border border-black p-4 transition-colors duration-300'>
+      <article className='cursor-pointer rounded border border-black p-4 transition-colors duration-300 hover:bg-secondary-50'>
         {icon}
-        <h3 className='text-secondary text-xl font-bold'>{title}</h3>
+        <h3 className='text-xl font-bold text-secondary'>{title}</h3>
         <p>{description}</p>
       </article>
     </a>
