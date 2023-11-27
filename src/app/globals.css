@@ -6,6 +6,17 @@
   html {
     @apply text-black;
     @apply font-medium;
+    scroll-behavior: smooth;
     --nav-height: 4rem;
+  }
+  button,
+  a {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    html {
+      --nav-height: 0pw;
+    }
   }
 }
