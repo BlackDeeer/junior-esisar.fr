@@ -48,7 +48,11 @@ export default function ContactButton() {
   }, []);
 
   return (
-    <a href='/devis' className='block w-fit'>
+    <a
+      href='/devis'
+      aria-label='nous contacter, demander un devis'
+      className='block w-fit'
+    >
       <div
         id='gravity-button'
         className='translate-y ease group relative h-44 w-44 translate-y-0 rounded-full bg-primary text-white'

@@ -102,7 +102,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <input
-                  className='form-input w-full border border-black bg-transparent p-2'
+                  className='form-input w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='lastname'
                   type='text'
                   placeholder='Prénom*'
@@ -115,7 +115,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <input
-                  className='form-input w-full border border-black bg-transparent p-2'
+                  className='form-input w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='email'
                   type='email'
                   placeholder='Email*'
@@ -128,7 +128,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <input
-                  className='form-input w-full border border-black bg-transparent p-2'
+                  className='form-input w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='phone'
                   type='tel'
                   placeholder='Téléphone'
@@ -138,7 +138,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <input
-                  className='form-input w-full border border-black bg-transparent p-2'
+                  className='form-input w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='company'
                   type='text'
                   placeholder='Société*'
@@ -151,7 +151,7 @@ export default function ContactForm() {
               </div>
               <div>
                 <input
-                  className='form-input w-full border border-black bg-transparent p-2'
+                  className='form-input w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='info'
                   type='text'
                   placeholder='Comment nous avez-vous connu ?'
@@ -159,16 +159,19 @@ export default function ContactForm() {
                   {...register('info')}
                 />
               </div>
-              <div className='md:col-span-2'>
+              <div className='flex flex-col md:col-span-2'>
                 <textarea
-                  className='form-textarea h-40 w-full border border-black bg-transparent p-2'
+                  className='form-textarea h-40 w-full border border-black bg-transparent p-2 focus:outline-primary'
                   id='message'
-                  placeholder='Votre message...'
+                  placeholder='Décrivez-nous votre projet...*'
                   required
                   {...register('message', {
                     required: 'Le champ message est requis',
                   })}
                 ></textarea>
+                <span className='self-end pr-2 text-gray-400'>
+                  *champs obligatoires
+                </span>
               </div>
               {/* <div className="w-full md:w-1/2 px-2 flex items-center">
                       <label htmlFor="fileUpload" className="text-sm w-full p-2 border rounded">

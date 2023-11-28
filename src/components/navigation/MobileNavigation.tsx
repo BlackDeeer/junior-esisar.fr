@@ -14,7 +14,7 @@ export default function MobileNavigation({
 
   return (
     <>
-      <Link href='/new-home' className='fixed left-4 top-4 z-50'>
+      <Link href='/new-home' className='fixed left-4 top-4 z-50 md:hidden'>
         <Image src={JuniorLogo} height={50} alt='Junior Logo' />
       </Link>
       <button
@@ -36,7 +36,6 @@ export default function MobileNavigation({
           ))}
         </ul>
       </nav>
-      ;
     </>
   );
 }
