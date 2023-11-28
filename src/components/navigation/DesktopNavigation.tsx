@@ -6,26 +6,11 @@ import { useEffect, useState } from 'react';
 //@ts-ignore
 import JuniorLogo from '@/assets/logo_junior.svg?url';
 
-const links = [
-  {
-    href: '/',
-    label: 'Accueil',
-  },
-  {
-    href: '/services',
-    label: 'Prestations',
-  },
-  {
-    href: '/team',
-    label: 'A propos',
-  },
-  {
-    href: '/devis',
-    label: 'Contact',
-  },
-];
-
-export default function Navigation() {
+export default function DesktopNavigation({
+  links,
+}: {
+  links: { href: string; label: string }[];
+}) {
   const pathname = usePathname();
 
   const [isBorderVisible, setIsBorderVisible] = useState(false);
@@ -47,7 +32,7 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`sticky top-0 z-50 box-content flex h-[var(--nav-height)] items-center justify-between border-b bg-bone pl-10 pr-16 transition-colors duration-300 ease-out ${
+      className={`sticky top-0 z-50 box-content hidden h-[var(--nav-height)] items-center justify-between border-b bg-bone pl-10 pr-16 transition-colors duration-300 ease-out md:flex ${
         isBorderVisible ? 'border-black/100' : 'border-black/0'
       }`}
     >

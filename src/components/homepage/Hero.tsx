@@ -1,5 +1,5 @@
 import { AiOutlineFilePdf } from 'react-icons/ai';
-import Octopus from '@/components/Octopus';
+import Octopus from '@/components/homepage/Octopus';
 import Button from '@/components/Button';
 
 export default function Hero() {
@@ -12,7 +12,7 @@ export default function Hero() {
           demain.
         </p>
         <Button
-          href='#'
+          href='/plaquette.pdf'
           title='Télécharger la plaquette'
           icon={<AiOutlineFilePdf size={24} />}
         />

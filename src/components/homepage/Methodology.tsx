@@ -1,5 +1,5 @@
-import SectionLayout from './SectionLayout';
-import Button from './Button';
+import SectionLayout from '../SectionLayout';
+import Button from '../Button';
 import { BsArrowUpRight } from 'react-icons/bs';
 
 export default function Methodology() {

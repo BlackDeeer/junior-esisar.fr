@@ -1,6 +1,6 @@
 import { BsArrowUpRight } from 'react-icons/bs';
-import Button from './Button';
-import SectionLayout from './SectionLayout';
+import Button from '../Button';
+import SectionLayout from '../SectionLayout';
 
 export default function NewAbout() {
   return (
