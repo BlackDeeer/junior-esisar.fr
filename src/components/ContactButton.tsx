@@ -55,7 +55,7 @@ export default function ContactButton() {
     >
       <div
         id='gravity-button'
-        className='translate-y ease group relative h-44 w-44 translate-y-0 rounded-full bg-primary text-white'
+        className='group relative h-44 w-44 translate-y-0 rounded-full bg-primary text-white duration-300 ease-out'
       >
         <div className='pointer-events-none absolute left-1/2 top-1/2 z-10 -translate-x-1/2 -translate-y-1/2 '>
           <CircularText

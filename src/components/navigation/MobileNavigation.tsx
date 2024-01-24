@@ -10,11 +10,11 @@ export default function MobileNavigation({
 }: {
   links: { href: string; label: string }[];
 }) {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <>
-      <Link href='/new-home' className='fixed left-4 top-4 z-50 md:hidden'>
+      <Link href='/' className='fixed left-4 top-4 z-50 md:hidden'>
         <Image src={JuniorLogo} height={50} alt='Junior Logo' />
       </Link>
       <button

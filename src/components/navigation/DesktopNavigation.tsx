@@ -36,7 +36,7 @@ export default function DesktopNavigation({
         isBorderVisible ? 'border-black/100' : 'border-black/0'
       }`}
     >
-      <Link href='/new-home' className='flex items-center gap-4'>
+      <Link href='/' className='flex items-center gap-4'>
         <Image src={JuniorLogo} height={50} alt='Junior Logo' />
         <span className='relative text-3xl font-extrabold '>Junior Esisar</span>
       </Link>
