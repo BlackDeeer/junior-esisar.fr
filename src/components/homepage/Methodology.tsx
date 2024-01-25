@@ -6,7 +6,7 @@ export default function Methodology() {
   return (
     <SectionLayout title='Notre méthodologie'>
       <div className='flex flex-col items-center text-xl'>
-        <p className='w-3/4 max-w-xl text-center'>
+        <p className='w-3/4 max-w-2xl text-center'>
           Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi.
           Aliquam in hendrerit urna. Pellentesque sit amet sapien fringilla,
           mattis ligula consectetur.

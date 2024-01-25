@@ -32,7 +32,7 @@ export default function DesktopNavigation({
 
   return (
     <nav
-      className={`sticky top-0 z-50 box-content hidden h-[var(--nav-height)] items-center justify-between border-b bg-bone pl-10 pr-16 transition-colors duration-300 ease-out md:flex ${
+      className={`sticky top-0 z-40 box-content hidden h-[var(--nav-height)] items-center justify-between border-b bg-bone pl-10 pr-16 transition-colors duration-300 ease-out md:flex ${
         isBorderVisible ? 'border-black/100' : 'border-black/0'
       }`}
     >

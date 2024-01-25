@@ -163,10 +163,10 @@ export default function ServicesDetails() {
                   {icon}
                   <h2 className='text-5xl font-extrabold'>{title}</h2>
                 </div>
-                <p className='mt-8 max-w-xl text-xl font-medium'>
+                <p className='mt-8 max-w-2xl text-xl font-medium'>
                   {description}
                 </p>
-                <div className='mb-16 mt-8 grid w-full max-w-xl grid-cols-2 place-items-center gap-8'>
+                <div className='mb-16 mt-8 grid w-full max-w-2xl grid-cols-2 place-items-center gap-8'>
                   {Object.keys(prestations).map((prestationType) => (
                     <div
                       key={prestationType}

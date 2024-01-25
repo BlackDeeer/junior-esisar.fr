@@ -20,14 +20,14 @@ export default function MobileNavigation({
       <button
         className={` ${
           isMenuOpen ? 'menu-open' : ''
-        } group peer fixed right-8 top-6 z-50 flex h-12 w-12 flex-col items-center justify-center gap-[6px] rounded-md border border-black bg-bone md:hidden`}
+        } group peer fixed right-8 top-6 z-40 flex h-12 w-12 flex-col items-center justify-center gap-[6px] rounded-md border border-black bg-bone md:hidden`}
         onClick={() => setIsMenuOpen((c) => !c)}
       >
         <span className='block h-[2px] w-6 origin-center bg-black duration-300 ease-out group-[.menu-open]:translate-y-[8px] group-[.menu-open]:rotate-45'></span>
         <span className='block h-[2px] w-6 bg-black duration-300 ease-out group-[.menu-open]:opacity-0'></span>
         <span className='block h-[2px] w-6 origin-center bg-black duration-300 ease-out group-[.menu-open]:-translate-y-[8px] group-[.menu-open]:-rotate-45'></span>
       </button>
-      <nav className='fixed z-40 w-full -translate-y-full border-b border-black bg-bone px-4 pb-8 pt-16 transition-transform duration-300 ease-out peer-[.menu-open]:translate-y-0 md:hidden '>
+      <nav className='fixed z-30 w-full -translate-y-full border-b border-black bg-bone px-4 pb-8 pt-16 transition-transform duration-300 ease-out peer-[.menu-open]:translate-y-0 md:hidden '>
         <ul className='flex flex-col gap-4 text-center text-2xl font-semibold'>
           {links.map(({ href, label }) => (
             <li key={href}>

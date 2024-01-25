@@ -61,7 +61,7 @@ export default function ServiceOffer() {
   return (
     <SectionLayout title='Nos prestations'>
       <div className='flex flex-col items-center text-xl'>
-        <p className='w-2/3 max-w-xl pb-8 text-center'>
+        <p className='w-2/3 max-w-2xl pb-8 text-center'>
           Une petite phrase de presentation, lorem ipsum dolor sit amet
           consectetur adipisicing elit. Blanditiis, commodi eos, perferendis
           voluptates eum repellendus aut.

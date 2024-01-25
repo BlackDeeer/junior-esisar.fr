@@ -10,7 +10,6 @@ export const metadata: Metadata = {
   title: 'Junior Esisar',
   description:
     'La junior qui vous permet de réaliser vos projets sereinement et en un temps record.',
-  robots: { index: false }, // à retirer lors du déploiement final
 };
 
 export default function RootLayout({

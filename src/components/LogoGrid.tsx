@@ -2,7 +2,7 @@ export default function LogoGrid() {
   return (
     <div className='py-14'>
       <div className='mx-auto max-w-screen-xl px-4 md:px-8'>
-        <div className='mx-auto max-w-xl text-center'>
+        <div className='mx-auto max-w-2xl text-center'>
           <h3 className='text-3xl font-semibold text-gray-800 sm:text-4xl'>
             Ils nous font confiance
           </h3>
