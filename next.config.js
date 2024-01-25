@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  basePath: process.env.BUILD_ENV === "github_page" ? "/junior-esisar.fr" : undefined,
+  basePath: process.env.NODE_ENV === "production" ? "/junior-esisar.fr" : undefined,
   images: {
     remotePatterns: [
       {
