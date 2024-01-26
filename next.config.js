@@ -2,20 +2,7 @@
 const nextConfig = {
   output: 'export',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'randomuser.me',
-        port: '',
-        pathname: '/**',
-      }
-    ]
+    unoptimized: true,
   },
   experimental: {
     webpackBuildWorker: true,

@@ -20,7 +20,7 @@ const OCTOPUS_MODEL_URL = `${
 
 export function OctopusModel(props: any) {
   const groupRef = useRef<THREE.Group>();
-  const { nodes } = useGLTF(OCTOPUS_MODEL_URL) as GLTFResult;
+  const { nodes } = useGLTF(OCTOPUS_MODEL_URL) as unknown as GLTFResult;
 
   const mouse = useRef({ x: 0, y: 0 });
 

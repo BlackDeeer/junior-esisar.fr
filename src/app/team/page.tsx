@@ -58,6 +58,7 @@ export default function Team() {
             src={TeamPicture}
             alt='Équipe'
             style={{ width: '100%', height: 'auto' }}
+            priority
           />
           {/* La présidence */}
           <div className='mx-auto mt-12 flex max-w-4xl flex-col md:flex-row'>
