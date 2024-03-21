@@ -14,9 +14,13 @@ type GLTFResult = GLTF & {
 const LERP = 0.1;
 const ROTATION_Y_OFFSET = 3;
 
+const OCTOPUS_MODEL_URL = `${
+  process.env.NODE_ENV === 'production' ? '/junior-esisar.fr' : ''
+}/low_poly_cute_octopus.glb`;
+
 export function OctopusModel(props: any) {
   const groupRef = useRef<THREE.Group>();
-  const { nodes } = useGLTF('/low_poly_cute_octopus.glb') as GLTFResult;
+  const { nodes } = useGLTF(OCTOPUS_MODEL_URL) as unknown as GLTFResult;
 
   const mouse = useRef({ x: 0, y: 0 });
 
@@ -52,7 +56,7 @@ export function OctopusModel(props: any) {
   );
 }
 
-useGLTF.preload('/low_poly_cute_octopus.glb');
+useGLTF.preload(OCTOPUS_MODEL_URL);
 
 export default function Octopus() {
   return (

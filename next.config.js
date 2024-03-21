@@ -3,20 +3,7 @@ const nextConfig = {
   output: 'export',
   basePath: process.env.NODE_ENV === "production" ? "/junior-esisar.fr" : undefined,
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'images.unsplash.com',
-        port: '',
-        pathname: '/**',
-      },
-      {
-        protocol: 'https',
-        hostname: 'randomuser.me',
-        port: '',
-        pathname: '/**',
-      }
-    ]
+    unoptimized: true,
   },
   experimental: {
     webpackBuildWorker: true,
