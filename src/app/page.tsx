@@ -13,7 +13,10 @@ export default function Home() {
       <ServiceOffer />
       <TextSlide />
       <Methodology />
-      <Contact />
+      <Contact
+        title="Alors, c'est parti ?"
+        description='Partagez-nous votre projet...'
+      />
     </main>
   );
 }

@@ -6,7 +6,7 @@ export default function Devis() {
     <>
       <HeroLayout
         title='Nous Contacter'
-        subtitle='Lorem ipsum dolor sit amet consectetur adipiscing elit Ut et massa mi. Aliquam in hendrerit urna. Pellentesque sit amet sapien.'
+        subtitle="Prêt à concrétiser vos idées ? Contactez-nous dès aujourd'hui et laissez-nous transformer vos projets en réalité !"
       />
       <ContactForm />
     </>

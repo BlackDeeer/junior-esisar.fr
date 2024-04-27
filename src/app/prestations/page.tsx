@@ -47,7 +47,10 @@ export default function Services() {
           </ul>
         </div>
       </div>
-      <Contact />
+      <Contact
+        title="C'est parti pour l'aventure ?"
+        description='Partagez-nous votre projet...'
+      />
     </>
   );
 }

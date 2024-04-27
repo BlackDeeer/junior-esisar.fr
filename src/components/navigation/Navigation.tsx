@@ -7,15 +7,15 @@ const links = [
     label: 'Accueil',
   },
   {
-    href: '/services',
+    href: '/prestations',
     label: 'Prestations',
   },
   {
     href: '/team',
-    label: 'A propos',
+    label: 'La Team',
   },
   {
-    href: '/devis',
+    href: '/contact',
     label: 'Contact',
   },
 ];

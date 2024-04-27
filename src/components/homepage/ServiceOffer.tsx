@@ -48,7 +48,7 @@ function Card({
 }) {
   return (
     <a href={href}>
-      <article className='cursor-pointer rounded border border-black p-4 transition-colors duration-300 hover:bg-secondary-50'>
+      <article className='h-full cursor-pointer rounded border border-black p-4 transition-colors duration-300 hover:bg-secondary-50'>
         {icon}
         <h3 className='text-xl font-bold text-secondary'>{title}</h3>
         <p>{description}</p>

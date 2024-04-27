@@ -23,7 +23,7 @@ export default function NewAbout() {
             Nous nous améliorons sans cesse au fil des années afin de vous
             mettre en relation avec nos meilleurs étudiants pour réaliser vos
             projets. Nos membres sont passionnés, engagés et votre satisfaction
-            est le cœur de nos préoccupations.
+            est au cœur de nos préoccupations.
           </p>
           <Button
             title='Voir la team'

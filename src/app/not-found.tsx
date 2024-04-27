@@ -9,7 +9,7 @@ export default function NotFoundPage() {
           404
         </h1>
         <p className='mb-12 text-center text-4xl font-bold md:text-5xl'>
-          Cette page n&apos;existe pas (encore)
+          Cette page n&apos;existe pas
         </p>
         <Button
           href='/'
