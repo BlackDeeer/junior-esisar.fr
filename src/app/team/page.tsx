@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import TeamPicture from '@/assets/team.jpg';
+import TeamPicture from '@/assets/team.webp';
 import HeroLayout from '@/components/HeroLayout';
 import SectionLayout from '@/components/SectionLayout';
 import Members from '@/components/team/Members';
