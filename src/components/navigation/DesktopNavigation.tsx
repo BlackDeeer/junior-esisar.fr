@@ -37,7 +37,7 @@ export default function DesktopNavigation({
       }`}
     >
       <Link href='/' className='flex items-center gap-4'>
-        <Image src={JuniorLogo} height={50} alt='Junior Logo' />
+        <Image src={JuniorLogo} height={50} priority alt='Junior Logo' />
         <span className='relative text-3xl font-extrabold '>Junior Esisar</span>
       </Link>
       <ul className='flex gap-8 text-xl font-semibold'>
