@@ -8,28 +8,28 @@ const services = [
   {
     title: 'Développement logiciel',
     description:
-      'Développez vos outils internes ou concrétisez vos projets logiciel, C, Java, Python, Rust... ',
+      'Nous développons vos outils internes et concrétisons vos projets logiciel. Nous concevons des solutions sur mesure et développons des applications robustes.',
     href: '/services#developpement-logiciel',
     icon: <PiBracketsCurlyBold size={40} />,
   },
   {
     title: 'Développement web',
     description:
-      'Le web, pilier de la communication, développez vos outils internes ou concrétisez vos projets logiciel. ',
+      'Découvrez notre expertise en développement web pour des solutions modernes et intuitives. Nous concevons des sites et web performants qui captivent vos utilisateurs. ',
     href: '/services#developpement-web',
     icon: <MdDevices size={40} />,
   },
   {
     title: 'Développement embarqué',
     description:
-      'Mettez en place des bancs de tests, développez sur vos cartes électroniques ou vos éléments embarqués',
+      'Nous réalisons vos projets sur mesure en électronique et informatique embarquée. Nous mettons en place des bancs de tests et développons sur vos cartes électroniques.',
     href: '/services#developpement-embarque',
     icon: <PiCircuitryFill size={40} />,
   },
   {
     title: 'Administration système',
     description:
-      'Configurez, maintenez, optimisez vos systèmes Linux ou mettez en place des systèmes complexes',
+      "Confiez la gestion de vos systèmes informatiques à notre équipe d'administrateurs système. Nous Configurons, maintenons, optimisons et mettons en place vos systèmes.",
     href: '/services#administration-systeme',
     icon: <FaGear size={40} />,
   },
@@ -62,9 +62,8 @@ export default function ServiceOffer() {
     <SectionLayout title='Nos prestations'>
       <div className='flex flex-col items-center text-xl'>
         <p className='w-2/3 max-w-2xl pb-8 text-center'>
-          Une petite phrase de presentation, lorem ipsum dolor sit amet
-          consectetur adipisicing elit. Blanditiis, commodi eos, perferendis
-          voluptates eum repellendus aut.
+          Découvrez notre palette complète de prestations, garantissant qualité,
+          fiabilité et performance à chaque étape de votre projet technique.
         </p>
         <div className='grid max-w-5xl grid-cols-1 gap-4 md:grid-cols-2'>
           {services.map((service) => (

@@ -34,7 +34,7 @@ export default function Members({ team }: { team: Team }) {
             {groupSelectionButtons.map((group) => (
               <button
                 onClick={() => setSelectedGroup(group)}
-                className={`rounded-md border border-black px-4 py-1 text-xl font-semibold transition-colors hover:bg-secondary-50 ${selectedGroup === group ? 'border-transparent bg-primary text-white hover:!bg-primary' : 'bg-transparent'}`}
+                className={`rounded-md border border-black px-4 pb-2 pt-1 text-xl font-semibold transition-colors hover:bg-secondary-50 ${selectedGroup === group ? 'border-transparent bg-primary text-white hover:!bg-primary' : 'bg-transparent'}`}
                 key={group}
               >
                 {group}

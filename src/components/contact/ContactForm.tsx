@@ -25,7 +25,7 @@ export default function ContactForm() {
 
   const recaptchaRef = useRef<ReCAPTCHA>(null);
 
-  const onSubmit = async (data: FormData) => {
+  async function onSubmit(data: FormData) {
     try {
       if (!recaptchaRef.current?.getValue()) {
         alert("Veuillez confirmer que vous n'êtes pas un robot.");
@@ -57,7 +57,7 @@ export default function ContactForm() {
       console.error("Erreur lors de l'envoi du message:", error);
       alert("Erreur lors de l'envoi du message. Veuillez réessayer.");
     }
-  };
+  }
 
   return (
     <section className='py-12' id='signup'>
@@ -66,8 +66,8 @@ export default function ContactForm() {
         async
         defer
       ></script>
-      <div className='container mx-auto px-4 text-lg'>
-        <div className='flex flex-wrap justify-center'>
+      <div className='container mx-auto px-4 text-xl'>
+        <div className='flex justify-center'>
           <div className='w-full text-center md:w-5/6 lg:w-2/3'>
             <form
               className='grid gap-x-4 gap-y-6 md:grid-cols-2'
@@ -173,12 +173,6 @@ export default function ContactForm() {
                   *champs obligatoires
                 </span>
               </div>
-              {/* <div className="w-full md:w-1/2 px-2 flex items-center">
-                      <label htmlFor="fileUpload" className="text-sm w-full p-2 border rounded">
-                          Pièce jointe (25Mo max.)
-                      </label>
-                      <input id="fileUpload" type="file" name="fileUpload" className="hidden" />
-                  </div> */}
               <div className='w-full px-2 md:w-1/2'>
                 <ReCAPTCHA
                   ref={recaptchaRef}

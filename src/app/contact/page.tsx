@@ -1,4 +1,4 @@
-import ContactForm from '@/components/ContactForm';
+import ContactForm from '@/components/contact/ContactForm';
 import HeroLayout from '@/components/HeroLayout';
 
 export default function Devis() {

@@ -27,25 +27,6 @@ export default function Services() {
             réseaux.
           </p>
         </div>
-
-        <div className='w-2/3 p-5 text-xl'>
-          <h2 className='mb-4 text-4xl font-extrabold'>
-            Pourquoi nous choisir ?
-          </h2>
-          <p className='mb-4'>
-            Les étudiants de l&apos;Esisar maîtrisent la majorité des systèmes
-            cyber-physiques et sont donc capables de créer une solution
-            numérique qui correspond à vos besoins. Nos 2 filières leur
-            permettent une spécialisation technique, tout en restant suffisement
-            généraliste pour pouvoir travailler avec toutes sortes de systèmes.
-          </p>
-          <ul className='list-disc pl-4'>
-            <li>Cybersécurité comme constante au sein des cursus</li>
-            <li>Electronique embarquée, Informatique et automatique </li>
-            <li>Informatique, Réseaux et cybersécurité</li>
-            <li>Systèmes Complexes Intelligents</li>
-          </ul>
-        </div>
       </div>
       <Contact
         title="C'est parti pour l'aventure ?"
