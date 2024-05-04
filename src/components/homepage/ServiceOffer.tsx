@@ -61,7 +61,7 @@ export default function ServiceOffer() {
   return (
     <SectionLayout title='Nos prestations'>
       <div className='flex flex-col items-center text-xl'>
-        <p className='w-2/3 max-w-2xl pb-8 text-center'>
+        <p className='w-full max-w-2xl pb-8 text-center md:w-2/3'>
           Découvrez notre palette complète de prestations, garantissant qualité,
           fiabilité et performance à chaque étape de votre projet technique.
         </p>

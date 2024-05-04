@@ -37,7 +37,6 @@ const team = [
       {
         name: 'Martiana dialan',
         title: 'Vice-Président',
-        linkedin: 'https://www.linkedin.com',
       },
     ],
   },
@@ -71,7 +70,6 @@ const team = [
       {
         name: 'Martiana dialan',
         title: 'Vice-Président',
-        linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
@@ -88,7 +86,6 @@ const team = [
       {
         name: 'Martiana dialan',
         title: 'Président',
-        linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
@@ -110,7 +107,6 @@ const team = [
       {
         name: 'Martiana dialan',
         title: 'Vice-Président',
-        linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
@@ -128,44 +124,42 @@ export default function Team() {
         title='La Team'
         subtitle='Rencontrez une équipe passionnée et dévouée, toujours prête à innover pour surpasser vos attentes.'
       />
-      <section className='py-14'>
-        <div className='mx-auto px-4 md:px-8'>
-          <Image
-            src={TeamPicture}
-            alt='Équipe'
-            className='mx-auto w-full max-w-5xl'
-            priority
-          />
-          <SectionLayout title='Nos valeurs'>
-            <div className='mx-auto w-full max-w-3xl'>
-              {ourValues.map((value) => (
-                <div key={value.title} className='pb-6'>
-                  <h3 className='pb-2 text-3xl font-bold text-primary'>
-                    {value.title}
-                  </h3>
-                  <p className='text-justify text-xl'>{value.description}</p>
-                </div>
-              ))}
+      <div className='mx-auto px-4 md:px-8'>
+        <Image
+          src={TeamPicture}
+          alt='Équipe'
+          className='mx-auto w-full max-w-5xl'
+          priority
+        />
+      </div>
+      <SectionLayout title='Nos valeurs'>
+        <div className='mx-auto w-full max-w-3xl'>
+          {ourValues.map((value) => (
+            <div key={value.title} className='pb-6'>
+              <h3 className='pb-2 text-3xl font-bold text-primary'>
+                {value.title}
+              </h3>
+              <p className='text-justify text-xl'>{value.description}</p>
             </div>
-            <div className='flex w-full justify-center pt-8'>
-              <div>
-                <div className='text-center text-3xl font-bold italic'>
-                  &quot;L&apos;engagement est ce qui transforme la promesse en
-                  réalité.&quot;
-                </div>
-                <div className='pr-4 text-right text-xl font-bold'>
-                  Abraham Lincoln
-                </div>
-              </div>
-            </div>
-          </SectionLayout>
-          <Members team={team} />
-          <Contact
-            title='Vous souhaitez nous rencontrer ?'
-            description='Cliquez sur le bouton ci-dessous'
-          />
+          ))}
         </div>
-      </section>
+        <div className='flex w-full justify-center pt-8'>
+          <div>
+            <div className='text-center text-3xl font-bold italic'>
+              &quot;L&apos;engagement est ce qui transforme la promesse en
+              réalité.&quot;
+            </div>
+            <div className='pr-4 text-right text-xl font-bold'>
+              Abraham Lincoln
+            </div>
+          </div>
+        </div>
+      </SectionLayout>
+      <Members team={team} />
+      <Contact
+        title='Vous souhaitez nous rencontrer ?'
+        description='Contactez-nous en cliquant sur le bouton ci-dessous !'
+      />
     </>
   );
 }

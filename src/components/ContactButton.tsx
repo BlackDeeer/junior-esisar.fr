@@ -49,7 +49,7 @@ export default function ContactButton() {
 
   return (
     <a
-      href='/devis'
+      href='/contact'
       aria-label='nous contacter, demander un devis'
       className='block w-fit'
     >

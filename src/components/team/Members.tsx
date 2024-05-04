@@ -9,7 +9,7 @@ type Team = {
   members: {
     name: string;
     title: string;
-    linkedin: string;
+    linkedin?: string;
   }[];
 }[];
 
@@ -29,7 +29,7 @@ export default function Members({ team }: { team: Team }) {
   return (
     <SectionLayout title='Membres'>
       <div className='flex w-full justify-center'>
-        <div className='w-3/4 max-w-5xl'>
+        <div className='w-full max-w-5xl md:w-3/4'>
           <div className='flex flex-wrap justify-center gap-4'>
             {groupSelectionButtons.map((group) => (
               <button
@@ -47,14 +47,16 @@ export default function Members({ team }: { team: Team }) {
                 <p className='w-fit text-xl font-semibold'>
                   {member.name}, <span className='italic'>{member.title}</span>
                 </p>
-                <a
-                  href={member.linkedin}
-                  className='block h-min w-min'
-                  aria-label='linkedin'
-                  target='_blank'
-                >
-                  <BiLogoLinkedin size={20} />
-                </a>
+                {member?.linkedin && (
+                  <a
+                    href={member.linkedin}
+                    className='block h-min w-min'
+                    aria-label='linkedin'
+                    target='_blank'
+                  >
+                    <BiLogoLinkedin size={20} />
+                  </a>
+                )}
               </div>
             ))}
           </div>

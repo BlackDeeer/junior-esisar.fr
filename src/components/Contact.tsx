@@ -11,7 +11,7 @@ export default function Contact({
   return (
     <SectionLayout title={title}>
       <div className='flex flex-col items-center'>
-        <p className='text-xl'>{description}</p>
+        <p className='text-center text-xl'>{description}</p>
         <div id='gravity-zone' className='rounded-full p-20'>
           <ContactButton />
         </div>

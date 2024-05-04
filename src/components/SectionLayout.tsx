@@ -6,7 +6,7 @@ export default function SectionLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className='px-4 py-8'>
+    <section className='px-8 py-8'>
       <h2 className='pb-8 text-center text-5xl font-extrabold'>{title}</h2>
       {children}
     </section>

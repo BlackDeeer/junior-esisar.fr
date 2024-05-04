@@ -70,7 +70,11 @@ export default function Footer() {
           junior.esisar@esisar.grenoble-inp.fr
         </a>
         <div>
-          <a href='your-commercial-brochure.pdf' className='hover:underline'>
+          <a
+            href='/Plaquette_Junior_Esisar.pdf'
+            download
+            className='hover:underline'
+          >
             plaquette commerciale
           </a>
           <span className='mx-2'>|</span>

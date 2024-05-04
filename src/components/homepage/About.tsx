@@ -6,7 +6,7 @@ export default function NewAbout() {
   return (
     <SectionLayout title='A propos de nous'>
       <div className='flex flex-col items-center'>
-        <div className='flex w-2/3 max-w-2xl flex-col items-center text-center text-xl'>
+        <div className='flex w-full max-w-2xl flex-col items-center text-left text-xl sm:w-2/3 md:text-center'>
           <p>
             Depuis sa création en 1995, les étudiants ont bénéficié de
             l&apos;expertise technique de l&apos;école :

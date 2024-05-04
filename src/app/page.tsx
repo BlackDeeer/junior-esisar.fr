@@ -15,7 +15,7 @@ export default function Home() {
       <TextSlide />
       <Methodology />
       <SectionLayout title='Pourquoi nous ?'>
-        <div className='mx-auto w-2/3 max-w-2xl text-xl'>
+        <div className='mx-auto w-full max-w-2xl text-xl md:w-2/3'>
           <p className='mb-4'>
             Les étudiants de l&apos;Esisar maîtrisent la majorité des systèmes
             cyber-physiques et sont donc capables de créer une solution

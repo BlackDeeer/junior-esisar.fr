@@ -32,11 +32,13 @@ export default function MobileNavigation({
         <span className='block h-[2px] w-6 bg-black duration-300 ease-out group-[.menu-open]:opacity-0'></span>
         <span className='block h-[2px] w-6 origin-center bg-black duration-300 ease-out group-[.menu-open]:-translate-y-[8px] group-[.menu-open]:-rotate-45'></span>
       </button>
-      <nav className='fixed z-30 w-full -translate-y-full border-b border-black bg-bone px-4 pb-8 pt-16 transition-transform duration-300 ease-out peer-[.menu-open]:translate-y-0 md:hidden '>
-        <ul className='flex flex-col gap-4 text-center text-2xl font-semibold'>
+      <nav className='fixed z-30 w-full -translate-y-full border-b border-black bg-bone px-4 pb-16 pt-20 transition-transform duration-300 ease-out peer-[.menu-open]:translate-y-0 md:hidden '>
+        <ul className='flex flex-col gap-6 text-center text-3xl font-semibold'>
           {links.map(({ href, label }) => (
             <li key={href}>
-              <Link href={href}>{label}</Link>
+              <Link href={href} onClick={() => setIsMenuOpen(false)}>
+                {label}
+              </Link>
             </li>
           ))}
         </ul>
