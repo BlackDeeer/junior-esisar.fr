@@ -25,7 +25,7 @@ export default function Hero() {
           download
         />
       </div>
-      <div className='aspect-square w-full min-w-[24rem] max-w-52 md:absolute md:bottom-0 md:right-0 md:w-1/2 md:max-w-2xl'>
+      <div className='aspect-square w-full max-w-52 md:absolute md:bottom-0 md:right-0 md:w-1/2 md:max-w-2xl'>
         <Octopus />
       </div>
     </section>

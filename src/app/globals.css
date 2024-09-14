@@ -9,6 +9,11 @@
     scroll-behavior: smooth;
     --nav-height: 4rem;
   }
+
+  body {
+    overflow-x: hidden;
+  }
+
   button,
   a {
     -webkit-tap-highlight-color: transparent;

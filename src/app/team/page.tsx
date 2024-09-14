@@ -47,33 +47,17 @@ const team = [
     members: [
       {
         name: 'Martiana dialan',
-        title: 'Président',
+        title: 'Secrétaire',
         linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
-        title: 'Vice-Président',
-        linkedin: 'https://www.linkedin.com',
-      },
-    ],
-  },
-  {
-    group: 'Technique',
-    description:
-      "Le pôle technique de la Junior Esisar travaille sur les projets de développement logiciel, web et embarqué de l'association.",
-    members: [
-      {
-        name: 'Martiana dialan',
-        title: 'Président',
+        title: 'Trésorier',
         linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
-        title: 'Vice-Président',
-      },
-      {
-        name: 'Martiana dialan',
-        title: 'Vice-Président',
+        title: 'Trésorier',
         linkedin: 'https://www.linkedin.com',
       },
     ],
@@ -85,11 +69,28 @@ const team = [
     members: [
       {
         name: 'Martiana dialan',
-        title: 'Président',
+        title: 'Directeur Commercial',
       },
       {
         name: 'Martiana dialan',
-        title: 'Vice-Président',
+        title: "Chargé d'affaire",
+        linkedin: 'https://www.linkedin.com',
+      },
+    ],
+  },
+  {
+    group: 'Technique',
+    description:
+      "Le pôle technique de la Junior Esisar travaille sur les projets de développement logiciel, web et embarqué de l'association.",
+    members: [
+      {
+        name: 'Martiana dialan',
+        title: 'Directeur Technique',
+        linkedin: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Martiana dialan',
+        title: 'Respo. Admin. Système',
         linkedin: 'https://www.linkedin.com',
       },
     ],
@@ -101,16 +102,16 @@ const team = [
     members: [
       {
         name: 'Martiana dialan',
-        title: 'Président',
+        title: 'Directeur Communication',
         linkedin: 'https://www.linkedin.com',
       },
       {
         name: 'Martiana dialan',
-        title: 'Vice-Président',
+        title: 'Respo. Comm. interne',
       },
       {
         name: 'Martiana dialan',
-        title: 'Vice-Président',
+        title: 'Respo. Comm. externe',
         linkedin: 'https://www.linkedin.com',
       },
     ],

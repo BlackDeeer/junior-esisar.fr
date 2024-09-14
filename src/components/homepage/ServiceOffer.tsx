@@ -8,29 +8,29 @@ const services = [
   {
     title: 'Développement logiciel',
     description:
-      'Nous développons vos outils internes et concrétisons vos projets logiciel. Nous concevons des solutions sur mesure et développons des applications robustes.',
-    href: '/services#developpement-logiciel',
+      'Nous développons vos outils internes et concrétisons vos projets logiciels. Nous concevons des solutions sur mesure et développons des applications robustes.',
+    href: '/prestations#developpement-logiciel',
     icon: <PiBracketsCurlyBold size={40} />,
   },
   {
     title: 'Développement web',
     description:
-      'Découvrez notre expertise en développement web pour des solutions modernes et intuitives. Nous concevons des sites et web performants qui captivent vos utilisateurs. ',
-    href: '/services#developpement-web',
+      'Découvrez notre expertise en développement web pour des solutions modernes et intuitives. Nous concevons des sites et applications web performants qui captivent vos utilisateurs.',
+    href: '/prestations#developpement-web',
     icon: <MdDevices size={40} />,
   },
   {
     title: 'Développement embarqué',
     description:
       'Nous réalisons vos projets sur mesure en électronique et informatique embarquée. Nous mettons en place des bancs de tests et développons sur vos cartes électroniques.',
-    href: '/services#developpement-embarque',
+    href: '/prestations#developpement-embarque',
     icon: <PiCircuitryFill size={40} />,
   },
   {
     title: 'Administration système',
     description:
       "Confiez la gestion de vos systèmes informatiques à notre équipe d'administrateurs système. Nous Configurons, maintenons, optimisons et mettons en place vos systèmes.",
-    href: '/services#administration-systeme',
+    href: '/prestations#administration-systeme',
     icon: <FaGear size={40} />,
   },
 ];

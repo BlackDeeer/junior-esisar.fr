@@ -27,7 +27,7 @@ export default function Members({ team }: { team: Team }) {
   );
 
   return (
-    <SectionLayout title='Membres'>
+    <SectionLayout title='Nos membres'>
       <div className='flex w-full justify-center'>
         <div className='w-full max-w-5xl md:w-3/4'>
           <div className='flex flex-wrap justify-center gap-4'>

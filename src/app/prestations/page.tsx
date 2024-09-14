@@ -11,9 +11,7 @@ export default function Services() {
         subtitle="Du développement logiciel à l'administration système en passant par le développement web et mobile, les étudiants de la Junior Entreprise Esisar sauront répondre à vos besoins."
       />
       <ServicesDetails />
-
       <StepsSection />
-
       <div className='flex flex-col items-center gap-12 p-12 text-xl'>
         <div className='w-full p-5 md:w-2/3'>
           <h2 className='mb-4 text-4xl font-extrabold'>Osez le numérique !</h2>
