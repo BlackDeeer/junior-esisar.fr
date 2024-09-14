@@ -19,7 +19,7 @@ export default function Hero() {
           .
         </p>
         <Button
-          href='Plaquette_Junior_Esisar.pdf'
+          href='plaquette_junior_esisar.pdf'
           title='Télécharger la plaquette'
           icon={<AiOutlineFilePdf size={24} />}
           download

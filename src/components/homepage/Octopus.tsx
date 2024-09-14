@@ -14,9 +14,7 @@ type GLTFResult = GLTF & {
 const LERP = 0.1;
 const ROTATION_Y_OFFSET = 3;
 
-const OCTOPUS_MODEL_URL = `${
-  process.env.NODE_ENV === 'production' ? '/junior-esisar.fr' : ''
-}/low_poly_cute_octopus.glb`;
+const OCTOPUS_MODEL_URL = '/low_poly_cute_octopus.glb';
 
 export function OctopusModel(props: any) {
   const groupRef = useRef<THREE.Group>();
