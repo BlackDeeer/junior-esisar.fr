@@ -4,7 +4,7 @@ import StepCard from './StepCard';
 export default function StepsSection() {
   return (
     <SectionLayout title='Notre méthodologie'>
-      <div className='flex h-[32rem] justify-center pt-8'>
+      <div className='flex h-[32rem] justify-center overflow-hidden pt-8'>
         <div className='relative w-60'>
           <div className='absolute -translate-x-16 translate-y-0 -rotate-[10deg]'>
             <StepCard step={1} title='On discute' />

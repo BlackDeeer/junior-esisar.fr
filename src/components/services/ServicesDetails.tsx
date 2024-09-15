@@ -1,5 +1,5 @@
 'use client';
-import { useEffect, useState, useRef } from 'react';
+import { useEffect, useState, useRef, Fragment } from 'react';
 import Button from '../Button';
 import { BsArrowUpRight } from 'react-icons/bs';
 import { PiBracketsCurlyBold } from 'react-icons/pi';
@@ -92,6 +92,8 @@ const services: Service[] = [
   // Ajouter d'autres prestations ici si besoin
 ];
 
+const PIXELS_IN_REM = 16;
+
 function handleScroll(
   containerRef: React.RefObject<HTMLElement>,
   setActiveService: React.Dispatch<React.SetStateAction<number>>
@@ -102,7 +104,7 @@ function handleScroll(
       window
         .getComputedStyle(document.documentElement)
         .getPropertyValue('--nav-height')
-    ) * 16;
+    ) * PIXELS_IN_REM;
   const offsetTop = containerRef.current.offsetTop - mainNavHeight;
   const height = containerRef.current.offsetHeight;
 
@@ -155,7 +157,7 @@ export default function ServicesDetails() {
       className='flex'
       style={{ '--scroll-indicator': 0 } as React.CSSProperties}
     >
-      <nav className='sticky top-[var(--nav-height)] h-[calc(100vh-var(--nav-height))] w-[30vw] min-w-fit max-w-md bg-primary'>
+      <nav className='sticky top-[var(--nav-height)] hidden h-[calc(100vh-var(--nav-height))] w-[30vw] min-w-fit max-w-md bg-primary lg:block'>
         <ul className='flex h-full flex-col items-center justify-center gap-8 p-8 text-2xl font-bold'>
           {services.map(({ title, id }, index) => (
             <li
@@ -171,23 +173,21 @@ export default function ServicesDetails() {
       <div className='w-full'>
         {services.map(
           ({ title, description, prestations, id, icon, cta }, index) => (
-            <>
+            <Fragment key={id}>
               {index !== 0 && (
                 <div className='mx-auto w-1/2 border-b border-gray-300'></div>
               )}
-              <div
-                key={id}
-                id={id}
-                className='flex flex-col items-center px-8 py-20'
-              >
-                <div className='flex items-center justify-center gap-4'>
+              <div id={id} className='flex flex-col items-center px-8 py-20'>
+                <div className='flex flex-col items-center justify-center bg-bone lg:gap-4'>
                   {icon}
-                  <h2 className='pb-3 text-5xl font-extrabold'>{title}</h2>
+                  <h2 className='text-center text-4xl font-extrabold sm:pb-3 sm:text-5xl lg:text-left'>
+                    {title}
+                  </h2>
                 </div>
                 <p className='mt-8 max-w-2xl text-xl font-medium'>
                   {description}
                 </p>
-                <div className='mb-16 mt-8 grid max-w-2xl grid-cols-2 gap-8'>
+                <div className='mb-16 mt-8 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2'>
                   {Object.keys(prestations).map((prestationType) => (
                     <div
                       key={prestationType}
@@ -208,7 +208,7 @@ export default function ServicesDetails() {
                   icon={<BsArrowUpRight size={22} />}
                 />
               </div>
-            </>
+            </Fragment>
           )
         )}
       </div>
