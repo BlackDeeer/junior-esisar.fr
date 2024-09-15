@@ -1,4 +1,4 @@
-import type { Metadata } from 'next';
+import type { Metadata, Viewport } from 'next';
 import { Darker_Grotesque } from 'next/font/google';
 import './globals.css';
 import Navigation from '@/components/navigation/Navigation';
@@ -9,7 +9,14 @@ const darkerGrotesque = Darker_Grotesque({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Junior Esisar',
   description:
-    'La junior qui vous permet de réaliser vos projets sereinement et en un temps record.',
+    "Réalisez vos projets aujourd'hui avec les ingénieurs de demain.",
+};
+
+export const viewport: Viewport = {
+  themeColor: [
+    { media: '(prefers-color-scheme: light)', color: '#F6F6EB' },
+    { media: '(prefers-color-scheme: dark)', color: '#7E4999' },
+  ],
 };
 
 export default function RootLayout({
