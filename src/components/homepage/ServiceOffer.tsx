@@ -29,7 +29,7 @@ const services = [
   {
     title: 'Administration système',
     description:
-      "Confiez la gestion de vos systèmes informatiques à notre équipe d'administrateurs système. Nous Configurons, maintenons, optimisons et mettons en place vos systèmes.",
+      "Confiez la gestion de vos systèmes informatiques à notre équipe d'administrateurs système. Nous mettons en place, configurons, maintenons et optimisons vos systèmes.",
     href: '/prestations#administration-systeme',
     icon: <FaGear size={40} />,
   },
