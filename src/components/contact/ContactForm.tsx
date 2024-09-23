@@ -27,10 +27,10 @@ export default function ContactForm() {
 
   async function onSubmit(data: FormData) {
     try {
-      if (!recaptchaRef.current?.getValue()) {
-        alert("Veuillez confirmer que vous n'êtes pas un robot.");
-        return;
-      }
+      // if (!recaptchaRef.current?.getValue()) {
+      //   alert("Veuillez confirmer que vous n'êtes pas un robot.");
+      //   return;
+      // }
 
       const result = await emailjs.send(
         'service_m7z1dty', // Remplacez par votre ID de service EmailJS
@@ -61,11 +61,11 @@ export default function ContactForm() {
 
   return (
     <section className='py-12' id='signup'>
-      <script
+      {/* <script
         src='https://www.google.com/recaptcha/api.js'
         async
         defer
-      ></script>
+      ></script> */}
       <div className='container mx-auto px-4 text-xl'>
         <div className='flex justify-center'>
           <div className='w-full text-center md:w-5/6 lg:w-2/3'>
@@ -173,12 +173,12 @@ export default function ContactForm() {
                   *champs obligatoires
                 </span>
               </div>
-              <div className='w-full px-2 md:w-1/2'>
+              {/* <div className='w-full px-2 md:w-1/2'>
                 <ReCAPTCHA
                   ref={recaptchaRef}
                   sitekey='6LcUZxYnAAAAAA4X_RsCGTFn1-AowANmANc63KkA'
                 />
-              </div>
+              </div> */}
               <button
                 className='flex h-fit w-fit items-center gap-3 self-end justify-self-end rounded-full bg-primary px-5 py-2 text-white transition-colors duration-200 hover:bg-secondary'
                 type='submit'

@@ -45,7 +45,8 @@ export default function Members({ team }: { team: Team }) {
             {getMembers(team).map((member) => (
               <div key={member.name} className='flex items-center gap-4'>
                 <p className='w-fit text-xl font-semibold'>
-                  {member.name}, <span className='italic'>{member.title}</span>
+                  {member.name},{' '}
+                  <span className='font-normal italic'>{member.title}</span>
                 </p>
                 {member?.linkedin && (
                   <a

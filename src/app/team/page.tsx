@@ -30,13 +30,19 @@ const team = [
       "La présidence de la Junior Esisar dirige l'association et supervisent l'ensemble de ses activités.",
     members: [
       {
-        name: 'Martiana dialan',
+        name: 'VERIN Jayson',
         title: 'Président',
-        linkedin: 'https://www.linkedin.com',
+        linkedin: 'https://www.linkedin.com/in/jayson-axcel-verin/',
       },
       {
-        name: 'Martiana dialan',
+        name: 'FRANCO TORRES Nathan',
         title: 'Vice-Président',
+        linkedin: 'https://www.linkedin.com/in/nathan-franco-torres-399bb7263/',
+      },
+      {
+        name: 'MAGLOIRE Mathis',
+        title: 'Secrétaire',
+        linkedin: 'https://www.linkedin.com/in/mathis-magloire-b2538b173/',
       },
     ],
   },
@@ -46,19 +52,8 @@ const team = [
       "La trésorerie de la Junior Esisar gère les finances de l'association et veillent à la bonne gestion des ressources financières.",
     members: [
       {
-        name: 'Martiana dialan',
-        title: 'Secrétaire',
-        linkedin: 'https://www.linkedin.com',
-      },
-      {
-        name: 'Martiana dialan',
+        name: 'TYMEN Nathan',
         title: 'Trésorier',
-        linkedin: 'https://www.linkedin.com',
-      },
-      {
-        name: 'Martiana dialan',
-        title: 'Trésorier',
-        linkedin: 'https://www.linkedin.com',
       },
     ],
   },
@@ -68,13 +63,9 @@ const team = [
       "Le pôle commercial de la Junior Esisar est en charge de la prospection, de la négociation et de la gestion des clients de l'association.",
     members: [
       {
-        name: 'Martiana dialan',
-        title: 'Directeur Commercial',
-      },
-      {
-        name: 'Martiana dialan',
-        title: "Chargé d'affaire",
-        linkedin: 'https://www.linkedin.com',
+        name: 'FINCK Timothée',
+        title: 'Respo. Commercial',
+        linkedin: 'https://www.linkedin.com/in/timoth%C3%A9e-finck-4718a82b3/',
       },
     ],
   },
@@ -84,35 +75,32 @@ const team = [
       "Le pôle technique de la Junior Esisar travaille sur les projets de développement logiciel, web et embarqué de l'association.",
     members: [
       {
-        name: 'Martiana dialan',
-        title: 'Directeur Technique',
-        linkedin: 'https://www.linkedin.com',
+        name: 'BAS Eliot',
+        title: 'Respo. Technique',
+        linkedin: 'https://www.linkedin.com/in/eliot-bas/',
       },
       {
-        name: 'Martiana dialan',
+        name: 'OVIGUIAN Théodore',
         title: 'Respo. Admin. Système',
-        linkedin: 'https://www.linkedin.com',
+        linkedin:
+          'https://www.linkedin.com/in/th%C3%A9odore-oviguian-6a6a15272/',
       },
     ],
   },
   {
-    group: 'Communication',
+    group: 'Qualité',
     description:
-      "Le pôle communication de la Junior Esisar est en charge de la communication interne et externe de l'association.",
+      "Le pôle qualité de la Junior Esisar assure le suivi et l'amélioration de la qualité des projets réalisés par l'association.",
     members: [
       {
-        name: 'Martiana dialan',
-        title: 'Directeur Communication',
-        linkedin: 'https://www.linkedin.com',
+        name: 'GANICHAUD Léa',
+        title: 'Respo. qualité',
+        linkedin: 'https://www.linkedin.com/in/leaganichaud/',
       },
       {
-        name: 'Martiana dialan',
-        title: 'Respo. Comm. interne',
-      },
-      {
-        name: 'Martiana dialan',
-        title: 'Respo. Comm. externe',
-        linkedin: 'https://www.linkedin.com',
+        name: 'Hamza AMRAOUI',
+        title: 'Respo. qualité',
+        linkedin: 'https://www.linkedin.com/in/hamza-amraoui-0a64b727b/',
       },
     ],
   },
