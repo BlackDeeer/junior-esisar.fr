@@ -8,7 +8,7 @@ export default function Services() {
     <>
       <HeroLayout
         title='Nos Prestations'
-        subtitle="Du développement logiciel à l'administration système en passant par le développement web et mobile, les étudiants de la Junior Entreprise Esisar sauront répondre à vos besoins."
+        subtitle="Du développement logiciel à l'administration système en passant par le développement web et mobile, les étudiants de la Junior Esisar sauront répondre à vos besoins."
       />
       <ServicesDetails />
       <StepsSection />

@@ -25,13 +25,13 @@ const services: Service[] = [
     icon: <PiBracketsCurlyBold size={50} />,
     prestations: {
       'Création de logiciels de gestion':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Nous concevons des logiciels sur mesure pour optimiser la gestion de vos opérations et simplifier vos processus.',
       "Développement d'outils d'automatisation":
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Automatisez vos tâches répétitives avec des outils performants pour gagner du temps et améliorer votre efficacité.',
       "Développement d'applications mobiles":
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Développez des applications mobiles ergonomiques et intuitives, adaptées à vos besoins et à ceux de vos utilisateurs.',
       'Intégration de solutions de CRM':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Optimisez la gestion de vos clients avec des solutions CRM entièrement intégrées à votre infrastructure.',
     },
     cta: 'Je veux ça !',
   },
@@ -43,13 +43,13 @@ const services: Service[] = [
     icon: <MdDevices size={50} />,
     prestations: {
       'Création de sites vitrine':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Attirez vos clients avec un site vitrine design et optimisé pour présenter efficacement votre activité.',
       "Développement d'applications web":
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Concevez des applications web interactives, robustes et adaptées à vos besoins spécifiques.',
       'Mise en place de boutiques en ligne':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Créez une boutique en ligne performante pour booster vos ventes et gérer vos transactions en toute sécurité.',
       "Création d'API et bases de données":
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Nous développons des API et bases de données fiables pour une gestion optimale des échanges de données.',
     },
     cta: 'Je veux ça !',
   },
@@ -61,13 +61,13 @@ const services: Service[] = [
     icon: <PiCircuitryFill size={50} />,
     prestations: {
       'Programmation de microcontrôleurs':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Nous programmons vos microcontrôleurs pour optimiser les performances de vos systèmes embarqués.',
       "Conception de systèmes embarqués pour l'Internet des Objets (IoT)":
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        "Créez des systèmes embarqués connectés pour l'IoT, avec des solutions adaptées à vos besoins technologiques.",
       'Développement de logiciels embarqués pour des dispositifs spécifiques':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Nous développons des logiciels embarqués performants et sécurisés pour vos dispositifs sur mesure.',
       'Intégration de technologies de capteurs':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Intégrez des capteurs intelligents dans vos systèmes pour collecter et analyser les données en temps réel.',
     },
     cta: 'Je veux ça !',
   },
@@ -79,13 +79,13 @@ const services: Service[] = [
     icon: <FaGear size={50} />,
     prestations: {
       'Configuration et maintenance de serveurs':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Nous configurons et assurons la maintenance de vos serveurs pour garantir leur stabilité et performance.',
       'Surveillance et gestion des réseaux informatiques':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Surveillez et gérez vos réseaux pour assurer un flux de données sécurisé et sans interruption.',
       'Mise en place de solutions de sauvegarde et de récupération des données':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Protégez vos données critiques avec des solutions de sauvegarde automatisées et des plans de récupération efficaces.',
       'Sécurisation des infrastructures IT':
-        'Ceci est un texte raisonnable qui permet de décrir ce service de façon raisonnable également.',
+        'Renforcez la sécurité de votre infrastructure IT avec des solutions adaptées à vos besoins.',
     },
     cta: 'Je veux ça !',
   },
